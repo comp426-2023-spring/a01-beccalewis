@@ -41,7 +41,7 @@ const server = http.createServer((req,res) => {
 // 3. end with the data that you are reading in from ./public/index.html.
 
 server.listen(port, () => {
-	console.log('Server listening on port ${port}');
+	console.log(`Server listening on port ${port}`);
 });
 });
 
