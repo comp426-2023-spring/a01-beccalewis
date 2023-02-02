@@ -10,7 +10,7 @@ var minimist = require('minimist')
 // Make this const default to port 3000 if there is no argument given for `--port`.
 let args = minimist(process.argv.slice(2), {
 	default: {
-		port: 3000
+		port: 8080
 },
 });
 const port = args.port;
